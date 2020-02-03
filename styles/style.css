@@ -1,0 +1,76 @@
+body {
+  background-image: url(../images/background.png);
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+.body-wrapper {
+  margin: 0 auto;
+
+  width: 1024px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contacts__info {
+  margin: 10px 10px 0 10px;
+
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.contacts__general {
+  margin: 0px;
+
+  font-size: 0.7em;
+  text-align: center;
+  color: rgb(92, 92, 92);
+  font-weight: bold;
+}
+
+h1 {
+  margin: 40px 0 10px 0;
+
+  font-size: 3em;
+  text-align: center;
+}
+
+.contacts-photo {
+  display: block;
+  margin: 0px auto;
+
+  width: 300px;
+  height: 300px;
+
+  border: 5px solid gray;
+  border-radius: 50%;
+}
+
+main {
+  margin-top: 60px;
+
+  text-indent: 2em;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 3px solid black;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
